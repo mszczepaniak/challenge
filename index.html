@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+                    
+					<img src="https://welcometosandyland.files.wordpress.com/2013/10/movember2.jpg" alt="" />
+					<h3>My biggest challenge</h3>
+					<p>
+						<small>Created by <a href="http://msz.technology">Michal Szczepaniak</a> / <a href="http://twitter.com/mszczepaniak">@mszczepaniak</a></small>
+					</p>
+					
+                </section>
+				<section>
+					<h2>Objective:</h2>
+					<p class="fragment">Create <span class="fragment " style="color: red;"><strong>completely from scratch</strong></span> mobile version of the Hundehaftpflicht Versicherung Product</p>
+				</section>
+				<section id="fragments">
+					<h2>Problem:</h2>
+					<p class="fragment">Time constraint: <strong><span  class="fragment highlight-red">01.11.2014</span></strong></p>
+					<p class="fragment">Why was it a problem?</p>
+					<p class="fragment"> <a href="#">8 weeks is not 8 months.</a></p>
+					<p class="fragment">It was 01.09.2014 already</p>
+					
+				</section>
+
+				<section >
+					<h2>Approach</h2>
+					<p class="fragment">Team split</p>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Split-arrows_2.svg/2000px-Split-arrows_2.svg.png" alt="" width="1900">
+				</section>
+				<section>
+					<h2>Technology stack</h2>
+					<p class="fragment">AngularJS, Gulp, Sass, ASP.NET WEB API 2, MSSQL</p>
+					<img src="https://angularjs.org/img/AngularJS-large.png" alt="" height="200">
+					<img src="http://media02.hongkiat.com/bootstrap-and-sass/bootstrap-sass.jpg" alt="" height="200">
+					<img src="https://avatars0.githubusercontent.com/u/6200624?v=3&s=400" alt="" height="200">
+				</section>
+				<section>
+					After three weeks more problems
+					<blockquote class="fragment">"we won't make it on time!" <br> - Team members</blockquote>
+				</section>
+				<section>
+					Crisis meeting was held.
+				</section>
+               
+				<section data-background="http://www.angularjs4u.com/wp-content/uploads/2015/07/angular-styleguide.jpg">
+				<div style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+<h2><span style="color: green;"><strong>The Plan</strong></span>
+						
+					</h2>
+					<p>Work on the weekends</p>
+					<p>
+						John Papa Styleguide
+					</p>
+				</div>
+					
+				</section>
+				 <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+					<div style="background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 20px;">
+						<h2>My idea</h2>
+					</div>
+				</section>
+				<section>
+					<h2>My small contribution</h2>
+					<p class="fragment">
+						Npm package for the rescue!
+					</p>
+				</section>
+
+				<section>
+				Created Angular services npm package
+				<p>and used it across the different versions</p>
+				<pre class="fragment">
+					<code>
+"dependencies": {
+	...
+    "angular": "~1.3.3",
+    "hhv-mobile-services": "~0.1.13"
+	...
+  },
+					</code>
+				</pre>
+				</section>
+				<section>
+					<h2>Result</h2>
+					<img src="https://dl.dropboxusercontent.com/u/64998988/product.png" alt="" style="position:fixed; top: 0px; left:-50px; width: 170px; height: 400px;" >
+					<table class="fragment">
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Change</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Conversion on mobile website</td>
+								<td class="fragment highlight-green"><strong>+15%</strong></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				<section>
+					<h2>Lessons learned</h2>
+					<ul>
+							<li class="fragment">
+								Always have a plan and be ready to <span class="fragment highlight-blue"><strong>pivot</strong>
+							</li>
+							<li class="fragment">
+								Even the small contribution is important - <span class="fragment highlight-blue"><strong>synergy</strong>
+							</li>
+							<li class="fragment">
+								Focus on the core functionality - <span class="fragment highlight-blue"><strong>MVP Product</strong></span>
+							</li>
+							<img src="http://leanheroes.com/wp-content/uploads/2013/07/0_title_canvas.jpg" alt="" class="fragment">
+						</ul>
+				</section>
+				
+				<section data-background-video=https://dl.dropboxusercontent.com/u/64998988/movember.mp4">
+				<div style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<h1>Questions ?</h1>
+					<span class="fragment">
+						
+						<small>Created using Javascript <a href="http://lab.hakim.se/reveal-js"> reveal.js Framework</a> </small>
+					</span>
+				</div>
+
+					
+					
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				fragments: true,
+				transition: 'concave',
+                center: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
